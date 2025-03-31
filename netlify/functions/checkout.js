@@ -14,8 +14,8 @@ exports.handler = async (event, context) => {
         payment_method_types: ['card'],
         line_items: items,
         mode: 'payment',
-        success_url: 'https://your-netlify-app.netlify.app/success',
-        cancel_url: 'https://your-netlify-app.netlify.app/cancel',
+        success_url: 'https://ecommerce-swift-mart.netlify.app/success',
+        cancel_url: 'https://ecommerce-swift-mart.netlify.app/cancel',
       });
 
       return {

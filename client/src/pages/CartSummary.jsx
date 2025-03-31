@@ -165,7 +165,7 @@ const CartSummary = ({ handleModalToggle }) => {
       },
     ];
 
-    await fetch('http://localhost:4000/checkout', {
+    await fetch('/.netlify/functions/checkout', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
