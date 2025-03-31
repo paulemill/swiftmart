@@ -23,15 +23,17 @@ const SearchFeature = ({
   };
 
   return (
-    <div className="mt-10 flex border border-gray-300 overflow-hidden w-70 justify-self-center rounded">
-      <input
-        type="text"
-        placeholder="Search Product..."
-        className="w-full outline-none text-black text-base px-2 py-2"
-        value={input}
-        onChange={handleInputChange}
-      />
-    </div>
+    <div className="mt-10 flex items-center justify-center w-full">
+  <div className="relative flex items-center border border-gray-300 overflow-hidden w-70 justify-self-center rounded mx-auto">
+    <input
+      type="text"
+      placeholder="Search Product..."
+      className="w-full outline-none text-black text-base px-2 py-2"
+      value={input}
+      onChange={handleInputChange}
+    />
+  </div>
+</div>
   );
 };
 
