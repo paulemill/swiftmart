@@ -1,3 +1,7 @@
+# Deployed Link
+
+https://ecommerce-swift-mart.netlify.app/
+
 # Payment Testing Instructions
 
 When testing interactively, use the following details:
