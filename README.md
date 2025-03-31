@@ -1,3 +1,7 @@
+# Summary
+
+Built with React and styled using Tailwind CSS, this app fetches product data from the DummyJSON API and offers features like product search, filtering, and sorting. Users can manage their cart, proceed to checkout, and complete payments securely using Stripe. The app is deployed on Netlify, with the backend converted into Netlify Functions for payment processing.
+
 # Deployed Link
 
 https://ecommerce-swift-mart.netlify.app/
